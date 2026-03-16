@@ -1,6 +1,25 @@
 body
 {
     background-color: #000000;
+    overflow-y: scroll;
+}
+#home_body
+{
+
+}
+#contact_body
+{
+
+}
+#portfolio_body
+{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+#about_body
+{
 
 }
 header
@@ -52,3 +71,20 @@ header
     margin-left: 250px;
     margin-right: 250px;
 }
+.section
+{
+    flex: 1 1 33.333%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+    height: 80%;
+}
+.top_left   { background-color: #3498db; }
+.top_middle { background-color: #2ecc71; }
+.top_right  { background-color: #e74c3c; }
+
+.btm_left   { background-color: #2ecc71; }
+.btm_middle { background-color: #e74c3c; }
+.btm_right  { }
