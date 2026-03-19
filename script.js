@@ -93,7 +93,7 @@ async function play_col(index, player)
 
 function get_ai_move()
 {
-    const result = minimax(game_board, 12, -Infinity, Infinity, true);
+    const result = minimax(game_board, 10, -Infinity, Infinity, true);
     return result.column;
 }
 
