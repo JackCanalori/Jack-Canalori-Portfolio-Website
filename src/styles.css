@@ -66,6 +66,8 @@ header
     text-align: center;
     color: #ff0000;
     padding: 5px;
+    display: inline-block;
+    width: auto;
 }
 #home_intro
 {
@@ -82,23 +84,47 @@ header
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     font-size: 1.5rem;
-    color: white;
+    background-color: #000000;
+    color: #ff0000;
     height: 80%;
 }
 
 
-.top_left   { background-color: #3498db; }
+.top_left
+{
+    background-color: #000000;
+    color: #ff0000;
+}
 .top_middle
 {
     background-color: #000000;
     color: #ff0000;
 }
-.top_right  { background-color: #e74c3c; }
+.top_right
+{
+    background-color: #000000;
+    color: #ff0000;
+}
 
-.btm_left   { background-color: #2ecc71; }
-.btm_middle { background-color: #e74c3c; }
-.btm_right  { }
+.btm_left
+{
+    background-color: #000000;
+    color: #ff0000;
+}
+.btm_middle
+{
+    background-color: #000000;
+    color: #ff0000;
+}
+.btm_right
+{
+    background-color: #000000;
+    color: #ff0000;
+}
+
+
 
 #play-button-div
 {
