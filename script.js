@@ -109,10 +109,7 @@ function getNextOpenRow(board, col)
     return null;
 }
 
-function get_frontier(board)
-{
-    return [0, 1, 2, 3, 4, 5, 6].filter(c => board[0][c] === ' ');
-}
+
 
 function minimax(currentBoard, depth, alpha, beta, maximizingPlayer) {
     let frontier = [0, 1, 2, 3, 4, 5, 6].filter(c => currentBoard[0][c] === ' ');
