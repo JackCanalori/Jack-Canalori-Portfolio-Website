@@ -194,8 +194,11 @@ header
 }
 .IMG-container
 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    width: 600px;
-    height: 400px;
-    border: 1px solid #ccc;
+    width: 300px;
+    height: 200px;
 }
