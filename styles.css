@@ -192,21 +192,4 @@ header
     color: #ff0000;
     text-align: center;
 }
-.IMG-container
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 300px;
-    height: 200px;
-}
-.SM-IMG
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 200px;
-}
+
